@@ -3,32 +3,37 @@
 
 int main()
 {
-	int Maths,Science,English,SocialStudies,Hindi,total;
+	int mark1,mark2,mark3,mark4,mark5,total;
 	char Name[50];
 	float result;
 	
-	printf("\n Enter your name: ");
+	printf("\n Enter your first name: ");
 	scanf("%s",&Name);
 	
 	printf("\n\n Please enter all marks out of 100.");
 	
-	printf("\n\n Enter your Math marks: ");
-	scanf("%d",&Maths);
-	printf("\n Enter your Science marks: ");
-	scanf("%d",&Science);
-	printf("\n Enter your Social Studies marks: ");
-	scanf("%d",&SocialStudies);
-	printf("\n Enter your Hindi marks: ");
-	scanf("%d",&Hindi);
-	printf("\n Enter your English marks: ");
-	scanf("%d",&English);
+	printf("\n\n\n  Your marks in subject 1: ");
+	scanf("%d",&mark1);
+
+	printf("\n  Your marks in subject 2: ");
+	scanf("%d",&mark2);
+
+	printf("\n  Your marks in subject 3: ");
+	scanf("%d",&mark3);
+
+	printf("\n  Your marks in subject 4: ");
+	scanf("%d",&mark4);
 	
-	total=Maths+Science+SocialStudies+Hindi+English;
+	printf("\n  Your marks in subject 5: ");
+	scanf("%d",&mark5);
+	
+	total=mark1+mark2+mark3+mark4+mark5;
 	result=total/(float)5;
 	
-	printf("\n\n %s your total marks are %d out of 500",Name,total);
-	printf("\n\n and your result is %.2f percent.",result);
-	
+	printf("\n\n  >> %s your total marks are %d out of 500",Name,total);
+	printf("\n\n  >> Your result is %.2f percent.",result);
+
+
 	getch();
 	return 0;
 }
