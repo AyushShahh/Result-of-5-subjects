@@ -3,7 +3,7 @@
 
 <p>Kept it simple and basic.<br>
 Enter your first name.<br>
-Enter subject names and marks.<br>
+Enter your marks.<br>
 It will calculate your total marks and percentage.<br>
 
 *Written in C.*
