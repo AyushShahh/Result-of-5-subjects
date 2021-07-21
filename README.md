@@ -1,8 +1,9 @@
 # Result-of-5-subjects
-I made this to calculate your result 
+**Made this to calculate result of 5 subjects**
 
-Kept it simple and basic.
-Just enter your name.
-Then enter your Math, Science, English, Social Studies and Hindi marks and it will calculate your total marks and percentage.
-Written in C. 
-Ayush Shah - a beginner.
+<p>Kept it simple and basic.<br>
+Enter your first name.<br>
+Enter subject names and marks.<br>
+It will calculate your total marks and percentage.<br>
+
+*Written in C.*
